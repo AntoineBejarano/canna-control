@@ -1,0 +1,31 @@
+/* Asegurarse de que los menús desplegables estén por encima de otros elementos */
+.dropdown-menu-content {
+  z-index: 50 !important;
+}
+
+/* Mejorar la visibilidad y usabilidad de los menús desplegables */
+[data-radix-popper-content-wrapper] {
+  z-index: 60 !important;
+}
+
+/* Asegurarse de que los botones de acción sean claramente interactivos */
+.dropdown-trigger {
+  cursor: pointer !important;
+}
+
+/* Asegurarse de que la tabla tenga un comportamiento adecuado en dispositivos móviles */
+.sales-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Mejorar la visibilidad de los elementos del menú desplegable */
+.dropdown-menu-item {
+  cursor: pointer !important;
+  user-select: none;
+}
+
+/* Asegurarse de que los elementos del menú desplegable tengan un estilo de hover adecuado */
+.dropdown-menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
